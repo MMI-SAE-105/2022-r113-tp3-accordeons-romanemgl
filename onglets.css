@@ -1,0 +1,16 @@
+.parent {
+    position: relative;
+}
+
+.enfant {
+    position: absolute;
+    opacity: 0;
+}
+
+.enfant.actif {
+    opacity: 1;
+}
+
+.actif {
+    background-color: #6738;
+}
